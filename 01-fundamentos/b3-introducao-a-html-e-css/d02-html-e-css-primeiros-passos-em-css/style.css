@@ -1,0 +1,38 @@
+body{
+    background-color: coral;
+    font-size: 16px;
+    }
+h1{
+    width: 65px;
+    color: rgb(31, 100, 109);
+    font-size: sans-serif;
+    font-style: italic;
+}
+
+li{
+    background-color: chartreuse;
+    line-height: 120%;
+    text-align: center;
+}
+
+.pro1{
+    background-color: burlywood;
+}
+
+p{
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#am{
+    color: yellow;
+}
+
+#vm{
+    color: red;
+}
+
+#mr{
+    color: brown;
+}
