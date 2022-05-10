@@ -27,7 +27,7 @@ div:nth-of-type(2){
     color: rgb(62, 141, 115);
 }
 div:nth-of-type(3){
-    font-size: 20px ;
+    font-size: 15px ;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(136, 141, 62);
 }
@@ -43,4 +43,8 @@ div:nth-of-type(5){
 }
 div:nth-of-type(2n+1){
     font-style: italic;
+}
+
+div{
+    width: 200px;
 }
