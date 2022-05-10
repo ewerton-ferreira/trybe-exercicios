@@ -35,3 +35,31 @@ li{
     width: 100px;
 }
 
+/* a {
+    text-decoration: none;
+} */
+
+.stacks1:hover{    
+    color: orange;
+    font-weight: bolder; 
+}
+
+.stacks2:hover{     
+    color: green;
+    font-weight: bolder; 
+}
+
+.stacks3:hover{   
+    color: black;
+    font-weight: bolder; 
+}
+
+.stacks4:hover{   
+    color:yellow;
+    font-weight: bolder; 
+}
+
+.stacks5:hover{   
+    color:greenyellow;
+    font-weight: bolder; 
+}
