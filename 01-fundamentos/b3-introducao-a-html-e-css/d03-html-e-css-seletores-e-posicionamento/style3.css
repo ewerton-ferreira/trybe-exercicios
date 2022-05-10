@@ -2,11 +2,15 @@ h1, p{
     text-align: center;
 }
 
-li:hover{
+.link{
+    text-decoration: none;
+}
+
+li.link:hover{
     background-color: aqua;
 }
 
-li:active{
+li.link:active{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
