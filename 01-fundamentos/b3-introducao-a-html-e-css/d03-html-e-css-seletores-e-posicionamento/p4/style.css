@@ -1,0 +1,3 @@
+div:hover:nth-of-type(n) {
+    border-bottom: 2px solid blue;
+}
