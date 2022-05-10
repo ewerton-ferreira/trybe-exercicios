@@ -1,0 +1,55 @@
+div:hover:nth-of-type(1) {
+    border: 2px solid blue;
+    background-color: bisque;
+}
+
+div:hover:nth-of-type(2) {
+    border: 2px solid green;
+    background-color: bisque;
+}
+
+div:hover:nth-of-type(3) {
+    border: 2px solid aqua;
+    background-color: bisque;
+}
+
+div:hover:nth-of-type(4) {
+    border: 2px solid brown;
+    background-color: bisque;
+}
+
+div:hover:nth-of-type(5) {
+    border: 2px solid coral;
+    background-color: bisque;
+}
+
+div:nth-of-type(1){
+    font-family: 'Helvetica Neue', sans-serif ;
+    color: aqua;
+}
+div:nth-of-type(2){
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif ;
+    color: rgb(62, 141, 115);
+}
+div:nth-of-type(3){
+    font-size: 15px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(136, 141, 62);
+}
+
+div:nth-of-type(4){
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(141, 94, 62);
+}
+
+div:nth-of-type(5){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(141, 62, 137);
+}
+div:nth-of-type(odd){
+    font-style: italic;
+}
+
+div{
+    width: 200px;
+}
