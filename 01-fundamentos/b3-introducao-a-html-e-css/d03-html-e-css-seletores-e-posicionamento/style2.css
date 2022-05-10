@@ -16,6 +16,7 @@
     position: absolute;
     top: 50px;
     left: 300px;
+    z-index: 4;
 
 }
 
@@ -24,11 +25,13 @@
     font-size: 25px;
     top: 60px;
     left: 300px;
+    z-index: 5;
 }
 
 .bowser{
     width: 200px;
     position: absolute;
     left: 560px;
-    top: 230px;    
+    top: 230px; 
+    z-index: 3;  
 }
