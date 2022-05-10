@@ -1,21 +1,26 @@
 div:hover:nth-of-type(1) {
-    border-bottom: 2px solid blue;
+    border: 2px solid blue;
+    background-color: bisque;
 }
 
 div:hover:nth-of-type(2) {
-    border-bottom: 2px solid black;
+    border: 2px solid green;
+    background-color: bisque;
 }
 
 div:hover:nth-of-type(3) {
-    border-bottom: 2px solid red;
+    border: 2px solid aqua;
+    background-color: bisque;
 }
 
 div:hover:nth-of-type(4) {
-    border-bottom: 2px solid green;
+    border: 2px solid brown;
+    background-color: bisque;
 }
 
 div:hover:nth-of-type(5) {
-    border-bottom: 2px solid brown;
+    border: 2px solid coral;
+    background-color: bisque;
 }
 
 div:nth-of-type(1){
