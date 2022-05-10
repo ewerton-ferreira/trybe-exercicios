@@ -14,3 +14,6 @@ li.link:active{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+ol, ul{
+    list-style: none;
+}
