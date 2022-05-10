@@ -5,3 +5,8 @@ h1, p{
 li:hover{
     background-color: aqua;
 }
+
+li:active{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
