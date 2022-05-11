@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+}
+
 .title{
     font-weight: bolder;
     font-style: unset;
@@ -9,6 +15,12 @@
 
 .navegation{
     text-decoration: none;
+    display: inline-block;
+    width: 200px;
+}
+
+.list{
+    list-style: none;
 }
 
 .family{
@@ -44,20 +56,20 @@ article{
 }
 
 .description{
-    width: 400px;
+    width: 40%;
     margin: 0 auto;
     text-align: justify;
     display: inline-block;
     position: relative;
-    left: 0;
 }
 
 .aside{
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
     display: inline-block;
+    position: relative;
 
-}
-body{
-    /* text-align: center; */
 }
 
 #references{
