@@ -1,0 +1,10 @@
+.title{
+    font-weight: bolder;
+    font-style: unset;
+    font-size: 20px;
+    text-align: center;
+}
+
+.family{
+    display: block;
+}
