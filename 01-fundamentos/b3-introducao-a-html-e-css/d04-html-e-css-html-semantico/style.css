@@ -8,3 +8,15 @@
 .family{
     display: block;
 }
+
+.scientific{
+    font-size: 25px;
+}
+
+.classification{
+    text-decoration: underline;
+}
+
+h3{
+    margin: 10px;
+}
