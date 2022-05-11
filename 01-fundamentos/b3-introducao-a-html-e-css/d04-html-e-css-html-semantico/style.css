@@ -3,10 +3,16 @@
     font-style: unset;
     font-size: 20px;
     text-align: center;
+    background-color: rgb(127, 184, 184);
+    height: 100px;
+}
+
+.navegation{
+    text-decoration: none;
 }
 
 .family{
-    display: block;
+    display: inline-block;
 }
 
 .scientific{
@@ -18,9 +24,44 @@
 }
 
 h3{
-    margin: 10px;
+    margin: auto;
 }
 
+
 .species{
-    width: 200px;
+    width: 100px;
+    display: inline-block;
+
+}
+
+article{
+    /* display: flex; */
+
+}
+
+.container{
+    display: flex;
+}
+
+.description{
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    left: 0;
+}
+
+.aside{
+    display: inline-block;
+
+}
+body{
+    /* text-align: center; */
+}
+
+#references{
+    text-decoration: none;
+    display: block;
+    width: auto;
 }
