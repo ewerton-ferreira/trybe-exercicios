@@ -6,9 +6,12 @@
 
 let salary = 3500;
 
-console.log(salary + salary);
-console.log(salary - salary);
-console.log(salary * salary);
-console.log(salary / salary);
-console.log(3 ** 4);
+// console.log(salary + salary);
+// console.log(salary - salary);
+// console.log(salary * salary);
+// console.log(salary / salary);
+// console.log(3 ** 4);
 
+salary--;
+
+console.log(salary);
