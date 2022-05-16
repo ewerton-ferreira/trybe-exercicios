@@ -1,17 +1,17 @@
-// let movie = "Batman"; //string lietral
-// let score = 9.80; //number literal
-// let isValid = true; // boolean
-// let name; //undefined
-// let color = null; //redefinição
+let patientId = 50;
+let isEnrolled = true;
+const patientInfo = {
+    firstName: "Ana",
+    lastName: "Santos",
+};
 
-let salary = 3500;
+const patientEmail = "ana@email.com"
+let patientAge = 31;
+patientId = "50";
 
-// console.log(salary + salary);
-// console.log(salary - salary);
-// console.log(salary * salary);
-// console.log(salary / salary);
-// console.log(3 ** 4);
 
-salary--;
-
-console.log(salary);
+console.log(typeof patientId);
+console.log(typeof isEnrolled);
+console.log(typeof patientInfo);
+console.log(typeof patientEmail);
+console.log(typeof patientAge);
