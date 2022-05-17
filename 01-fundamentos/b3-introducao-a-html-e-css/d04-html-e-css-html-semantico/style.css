@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    color: rgb(46, 46, 46);
+    line-height: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-weight: bolder;
+    font-style: unset;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(127, 184, 184);
+    height: 100px;
+}
+
+.navegation{
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+}
+
+.list{
+    list-style: none;
+}
+
+.family{
+    display: inline-block;
+}
+
+.scientific{
+    font-size: 25px;
+}
+
+.classification{
+    text-decoration: underline;
+}
+
+h3{
+    margin: auto;
+}
+
+
+.species{
+    width: 100px;
+    display: inline-block;
+
+}
+
+article{
+    /* display: flex; */
+
+}
+
+.container{
+    display: flex;
+}
+
+.description{
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+}
+
+.aside{
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+
+}
+
+#references{
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
