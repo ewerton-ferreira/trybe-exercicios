@@ -59,3 +59,26 @@ function countingEvenOdd(array) {
 }
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log (countingEvenOdd(array));
+
+
+/* 3. Crie uma função que receba uma string word e outra estring ending.
+ Considere que a string ending sempre será menor que a string word.*/
+
+  // valor de teste: 'trybe' e 'be'
+  // valor esperado no retorno da função: true
+  
+// valor de teste: 'trybe' e 'be'
+// valor esperado no retorno da função: true
+/*verificaFimPalavra('trybe', 'be');*/  
+// Retorno esperado: true  
+/*verificaFimPalavra('joaofernando', 'fernan');*/  
+//  Retorno esperado: false; 
+
+function palavras (word, ending) {
+    let trybe = word
+    let be = ending
+
+    let resultado = {
+        
+    }
+}
