@@ -8,5 +8,8 @@ for (let index = 2; index <= 50; index +=1) {
             isPrime = false
         }
     }
+    if (isPrime) {
+        biggestPrimeNumber = index;
+    }
 }
 console.log(biggestPrimeNumber);
