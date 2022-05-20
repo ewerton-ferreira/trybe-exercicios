@@ -11,6 +11,9 @@ document.getElementsByTagName('main')[0].style.backgroundColor = 'rgb(76,164,109
 //Q03
 document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
 
+//Q04
+document.getElementsByClassName('title')[0].innerHTML = 'Exercício 5.1 - JavaScript';
+
 
 
 
