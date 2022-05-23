@@ -100,6 +100,7 @@
       
       //Q08
       let addListNO = document.createElement('ul');
+      addListNO.className = 'list'
       addTagSectionRight.appendChild(addListNO);
 
       let items = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
@@ -107,6 +108,7 @@
       for (let index of items) {
         let addListItems = document.createElement('li');
         addListItems.innerText = index;
+        
         
         addListNO.appendChild(addListItems);
       }
@@ -128,8 +130,9 @@
       //Q2.5
       addTagSection.style.backgroundColor = 'green';
 
-
-
+      //Q2.6
+      ul.lastChild.remove();
+      ul.lastChild.remove();
 
       console.log(pageBody);
     </script>
