@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      //Q01
+      let pageBody = document.body;
+      let addTagH1 = document.createElement('h1');
+      addTagH1.innerText = ('Exercício 5.2 - JavaScript DOM');
+      addTagH1.className = 'header';
+
+      pageBody.appendChild(addTagH1);
+
+      //Site consultado como estudo para realização do exercício: http://devfuria.com.br/javascript/dom-create-element/#:~:text=%E2%80%A6e%20precisamos%20de%20um%20texto,')%3B%20var%20texto%20%3D%20document.
+      
+      //Q02 
+      let addTagMain = document.createElement('main');
+      addTagMain.className = 'main-content';
+      pageBody.appendChild(addTagMain);
+
+      //Q03      
+      let addTagSection = document.createElement('section');
+      addTagSection.className = 'center-content';
+      addTagMain.appendChild(addTagSection);
+      
+      //Q04
+      let addTagP = document.createElement('p');
+      addTagP.innerText = ('Não ensinem as crianças a múscica da coca-cola espumante.');
+      addTagSection.appendChild(addTagP);
+      
+      //Q05
+      let addTagSectionLeft = document.createElement('section');
+      addTagSectionLeft.className = 'left-content';
+      addTagMain.appendChild(addTagSectionLeft);
+
+      //Q06
+      let addTagSectionRight = document.createElement('section');
+      addTagSectionRight.className = 'right-content';
+      addTagMain.appendChild(addTagSectionRight);
+
+      //Q07
+      let addImgSection = document.createElement('img');
+      addImgSection.src = 'https://picsum.photos/200';
+      addImgSection.className = 'small-image';
+      addTagSectionLeft.appendChild(addImgSection);
+      
+      //Q08
+      let addListNO = document.createElement('ul');
+      addListNO.className = 'list'
+      addTagSectionRight.appendChild(addListNO);
+
+      let items = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      
+      for (let index of items) {
+        let addListItems = document.createElement('li');
+        addListItems.innerText = index;
+        
+        
+        addListNO.appendChild(addListItems);
+      }
+      
+      //Q09
+      
+      for(index = 0; index < 3; index += 1) {
+        let addTagsH3 = document.createElement('h3');
+        addTagsH3.className = 'description';
+        addTagMain.appendChild(addTagsH3);  
+      }
+      
+      //Q2.3
+      addTagMain.removeChild(addTagSectionLeft);
+
+      //Q2.4
+      addTagSectionRight.style.marginRight = 'auto';
+      
+      //Q2.5
+      addTagSection.style.backgroundColor = 'green';
+
+      //Q2.6
+      ul.lastChild.remove();
+      ul.lastChild.remove();
+
+      console.log(pageBody);
+    </script>
+  </body>
+</html>
