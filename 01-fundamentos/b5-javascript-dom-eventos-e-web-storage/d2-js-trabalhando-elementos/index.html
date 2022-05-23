@@ -62,7 +62,7 @@
       let addTagH1 = document.createElement('h1');
       addTagH1.innerText = ('Exercício 5.2 - JavaScript DOM');
       
-      pageBody.appendChild(addTagH1);    
+      pageBody.appendChild(addTagH1);
 
       //Site consultado como estudo para realização do exercício: http://devfuria.com.br/javascript/dom-create-element/#:~:text=%E2%80%A6e%20precisamos%20de%20um%20texto,')%3B%20var%20texto%20%3D%20document.
       
@@ -71,12 +71,15 @@
       addTagMain.className = 'main-content';
       pageBody.appendChild(addTagMain);
 
-      //Q03
-            
+      //Q03      
       let addTagSection = document.createElement('section');
       addTagSection.className = 'center-content';
-      addTagMain.appendChild(addTagSection); 
-
+      addTagMain.appendChild(addTagSection);
+      
+      //Q04
+      let addTagP = document.createElement('p');
+      addTagSection.appendChild(addTagP);
+      
       console.log(pageBody);
     </script>
   </body>
