@@ -97,6 +97,19 @@
       addImgSection.className = 'small-image';
       addTagSectionLeft.appendChild(addImgSection);
       
+      //Q08
+      let addListNO = document.createElement('ul');
+      addTagSectionRight.appendChild(addListNO);
+
+      let value = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      
+      for (let index in value) {
+        let addListItems = document.createElement('li');
+        addListItems.innerText = index;
+        
+        addListNO.appendChild(addListItems);
+      }
+      
       
       console.log(addTagMain);
     </script>
