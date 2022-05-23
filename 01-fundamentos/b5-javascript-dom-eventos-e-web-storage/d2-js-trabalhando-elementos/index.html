@@ -58,25 +58,26 @@
   <body>
     <script>
       //Q01
-      let selectFather = document.body;
-      let addTag = document.createElement('h1');
-      selectFather.appendChild(addTag);
-
-      let textTitle = document.createTextNode('Exercício 5.2 - JavaScript DOM');
-      addTag.appendChild(textTitle);
-
+      let pageBody = document.body;
+      let addTagH1 = document.createElement('h1');
+      addTagH1.innerText = ('Exercício 5.2 - JavaScript DOM');
+      
+      pageBody.appendChild(addTagH1);    
 
       //Site consultado como estudo para realização do exercício: http://devfuria.com.br/javascript/dom-create-element/#:~:text=%E2%80%A6e%20precisamos%20de%20um%20texto,')%3B%20var%20texto%20%3D%20document.
       
-      //Q02
-        let mainTag = document.body;
-        let addMainTag = document.createElement('main');
-        mainTag.appendChild(addMainTag);
+      //Q02 
+      let addTagMain = document.createElement('main');
+      addTagMain.className = 'main-content';
+      pageBody.appendChild(addTagMain);
 
-        addMainTag.className = 'main-content';
-        
-        
+      //Q03
+            
+      let addTagSection = document.createElement('section');
+      addTagSection.className = 'center-content';
+      addTagMain.appendChild(addTagSection); 
 
+      console.log(pageBody);
     </script>
   </body>
 </html>
