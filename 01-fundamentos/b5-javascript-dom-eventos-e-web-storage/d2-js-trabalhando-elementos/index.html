@@ -78,6 +78,7 @@
       
       //Q04
       let addTagP = document.createElement('p');
+      addTagP.innerText = ('Não ensinem as crianças a múscica da coca-cola espumante.');
       addTagSection.appendChild(addTagP);
       
       //Q05
@@ -85,7 +86,19 @@
       addTagSectionLeft.className = 'left-content';
       addTagMain.appendChild(addTagSectionLeft);
 
-      console.log(pageBody);
+      //Q06
+      let addTagSectionRight = document.createElement('section');
+      addTagSectionRight.className = 'right-content';
+      addTagMain.appendChild(addTagSectionRight);
+
+      //Q07
+      let addImgSection = document.createElement('img');
+      addImgSection.src = 'https://picsum.photos/200';
+      addImgSection.className = 'small-image';
+      addTagSectionLeft.appendChild(addImgSection);
+      
+      
+      console.log(addTagMain);
     </script>
   </body>
 </html>
