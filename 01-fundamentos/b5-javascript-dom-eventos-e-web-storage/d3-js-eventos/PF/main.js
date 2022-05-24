@@ -26,10 +26,9 @@ thirdLi.addEventListener('click', insertClass);
 // com a classe 'tech';
 
 input.addEventListener('input', function(event) {
-    const classInsertTag = document.querySelector('.tech'); 
+    const classInsertTag = document.querySelector('.tech');
     classInsertTag.innerText = event.target.value;
-
-});
+  });
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
