@@ -64,14 +64,18 @@ function createDaysOfTheWeek() {
       let holidayButton = document.querySelector('#btn-holiday');
       let holidays = document.querySelectorAll('.holiday')
       let backgroundColor = 'rgb(238,238,238)';
-      let newColor = 'white';
+      let color = '#777'
+      let newColor = 'rgb(52, 162, 196)';
+      let letterColor = 'white';
 
       holidayButton.addEventListener('click', function() {
           for (let i = 0; i < holidays.length; i += 1) {
-              if (holidays[i].style.backgroundColor === newColor) {
+              if (holidays[i].style.backgroundColor === newColor || color === letterColor) {
                   holidays[i].style.backgroundColor = backgroundColor;
+                  holidays[i].style.color = color;
               } else {
                   holidays[i].style.backgroundColor = newColor;
+                  holidays[i].style.color = letterColor;
               }
           }
       })
@@ -146,7 +150,7 @@ function createDaysOfTheWeek() {
       
       newTaskSpan('Projeto:');
 
-    Q08
+    //Q08
 
     function newTaskDiv(color) {
 
@@ -160,4 +164,19 @@ function createDaysOfTheWeek() {
       
       newTaskDiv('green');
 
-      
+    //Q09
+
+    function setTaskClass() {
+        let selectedTask = document;getElementsByClassName('task selected');
+        let myTasks = document.querySelector('.task');
+
+        myTasks.addEventListener('click', function(event) {
+            if (selectedTask.lenght === 0) {
+                event.target.className = 'task selected';
+            } else {
+                event.target.className = 'task'
+            }
+        });
+    };
+
+    
