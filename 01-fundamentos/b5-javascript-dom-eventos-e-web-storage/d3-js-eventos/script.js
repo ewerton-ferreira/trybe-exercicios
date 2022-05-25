@@ -90,3 +90,24 @@ function createDaysOfTheWeek() {
           buttonContainer.appendChild(newButton);
     }
     createFridayButton('Sexta-feira');
+
+    //Q05
+    
+    function displayFridays(fridaysArray) {
+        let getFridayButton = document.querySelector('#btn-friday');
+        let fridays = document.getElementsByClassName('friday');
+        let newFridayText = 'Sextou!!!';
+      
+        getFridayButton.addEventListener('click', function() {
+        for (let index = 0; index < fridays.length; index += 1) {
+          if (fridays[index].innerHTML !== newFridayText) {
+              fridays[index].innerHTML = newFridayText;
+          } else {
+              fridays[index].innerHTML = fridaysArray[index];
+            }
+          }
+        })
+      };
+      
+      let dezFridays = [ 4, 11, 18, 25 ];
+      displayFridays(dezFridays);
