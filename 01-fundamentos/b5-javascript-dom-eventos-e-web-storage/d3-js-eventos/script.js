@@ -111,3 +111,24 @@ function createDaysOfTheWeek() {
       
       let dezFridays = [ 4, 11, 18, 25 ];
       displayFridays(dezFridays);
+
+      //Q06
+
+    function zoomDayMouse() {
+        let days = document.querySelector('#days');
+        days.addEventListener('mouseover', function(event) {
+            event.target.style.fontWeight = '500';
+            event.target.style.fontSize = '25px'
+        })
+    }
+
+    function zoomMouseOut() {
+        let days = document.querySelector('#days');
+        days.addEventListener('mouseout', function(event) {
+            event.target.style.fontWeight = '400';
+            event.target.style.fontSize = '20px'
+        })
+    }
+
+    zoomDayMouse();
+    zoomMouseOut();
