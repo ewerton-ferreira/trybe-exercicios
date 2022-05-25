@@ -135,12 +135,29 @@ function createDaysOfTheWeek() {
 
     //Q07
 
-    function newTagSpan (cook) {
-        let tagSpan = document.querySelector('.my-tasks');
-        let tagSpanName = document.createElement('span');
+    function newTaskSpan(task) {
 
-        tagSpanName.innerHTML = cook;
-        tagSpan.appendChild(tagSpanName);
-    };
+        let tasksContainer = document.querySelector('.my-tasks');
+        let taskName = document.createElement('span');
+      
+        taskName.innerHTML = task;
+        tasksContainer.appendChild(taskName);
+      };
+      
+      newTaskSpan('Projeto:');
 
-    newTagSpan('Cozinhar');
+    Q08
+
+    function newTaskDiv(color) {
+
+        let tasksContainer = document.querySelector('.my-tasks');
+        let newTask = document.createElement('div');
+      
+        newTask.className = 'task';
+        newTask.style.backgroundColor = color;
+        tasksContainer.appendChild(newTask);
+      };
+      
+      newTaskDiv('green');
+
+      
