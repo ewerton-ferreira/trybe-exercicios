@@ -132,3 +132,15 @@ function createDaysOfTheWeek() {
 
     zoomDayMouse();
     zoomMouseOut();
+
+    //Q07
+
+    function newTagSpan (cook) {
+        let tagSpan = document.querySelector('.my-tasks');
+        let tagSpanName = document.createElement('span');
+
+        tagSpanName.innerHTML = cook;
+        tagSpan.appendChild(tagSpanName);
+    };
+
+    newTagSpan('Cozinhar');
