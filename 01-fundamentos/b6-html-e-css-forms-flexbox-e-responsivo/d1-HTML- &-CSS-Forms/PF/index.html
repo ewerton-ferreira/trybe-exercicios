@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando módulo de formulário</title>
+</head>
+<body>
+    <h1>FORMULÁRIO</h1>
+    <div>
+      <h2>Parte I</h2>
+      <form action="" method="get">
+          <label for="input-text">Digite seu nome</label>
+          <input type="text" placeholder="Escreva aqui" required value='Meeeeengo' name="texto" id="input-text">
+          <button type="submit">Enviar</button>
+          <br>
+          <textarea name="" id="" cols="30" rows="5">Descreva aqui...</textarea>
+      </form>
+    </div>
+    <div>
+      <p>Qual o seu esporte preferido?</p>
+      <form action="" method="get">
+        <input type="checkbox" id="esporte-1" value="fut" name="esporte" checked>Futebol
+        <input type="checkbox" id="esporte-2" value="vol" name="esporte">Voley
+        <input type="checkbox" id="esporte-3" value="bas" name="esporte">Basquete
+        <input type="checkbox" id="esporte-4" value="nat" name="esporte">Natação
+        <input type="checkbox" id="esporte-5" value="aut" name="esporte">Automobilismo
+        <input type="checkbox" id="esporte-6" value="art" name="esporte">Artes marciais
+        <input type="checkbox" id="esporte-7" value="out" name="esporte">Outro
+      </form>
+    </div>
+    <div>
+      <p>Qual a sua região?</p>
+      <form action="" method="get">
+        <label for="reg1"><input type="radio" id="reg1" name="regiao" value="ne">Nodeste</label>
+        <label for="reg2"><input type="radio" id="reg2" name="regiao" value="n">Norte</label>
+        <label for="reg3"><input type="radio" id="reg3" name="regiao" value="co">Centro-Oeste</label>
+        <label for="reg4"><input type="radio" id="reg4" name="regiao" value="se">Sudeste</label>
+        <label for="reg5"><input type="radio" id="reg5" name="regiao" value="s">Sul</label>
+      </form>
+    </div>
+    <div>
+      <p>Em qual estado você nasceu?</p>
+      <form action="" method="get">
+        <select name="estado" id="dropdown-estado">
+          <option value="pe">Pernambuco</option>
+          <option value="pb">Paraíba</option>
+          <option value="ba">Bahia</option>
+          <option value="pa">Pará</option>
+          <option value="am">Amazonas</option>
+          <option value="ac">Acre</option>
+          <option value="to">Tocantins</option>
+          <option value="go">Goiás</option>
+          <option value="mg">Minas Gerais</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="sp">São Paulo</option>
+          <option value="pr">Paraná</option>
+          <option value="rs">Rio Grande do Sul</option>
+        </select>
+        <p>Crie uma senha</p>
+        <input type="password" name="senha">
+      </form>
+    </div>
+    <div>
+      <p>Envie um arquivo</p>
+      <form action="" method="get">
+        <input type="file" name="imagem" id="img-1">
+        <p>Usuário</p>
+        <input type="text" name="user" required>
+        <p>Senha</p>
+        <input type="password" name="pass" required>
+        <button type="submit" class="" name="" id="">Enviar</button>
+      </form>
+      <form action="" method="post" enctype="multipart/form-data">
+        <input type="file" name="imagem" id="img-1">
+      </form>
+    </div>
+</body>
+</html>
