@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando módulo de formulário</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 class="display-4 text-muted">FORMULÁRIO</h1>
+    <div class="form-group">
+      <h2>Parte I</h2>
+      <form action="" method="get">
+          <label for="input-text">Digite seu nome</label>
+          <input class="form-control" type="text" placeholder="Escreva aqui" required value='Meeeeengo' name="texto" id="input-text">
+          <button class="btn btn-success" type="submit">Enviar</button>
+          <br>
+          <textarea class="form-control" name="" id="" cols="30" rows="5">Descreva aqui...</textarea>
+      </form>
+    </div class="form-group">
+    <div class="form-group">
+      <p>Qual o seu esporte preferido?</p>
+      <form action="" method="get">
+        <input class="form-check-input" type="checkbox" id="esporte-1" value="fut" name="esporte" checked>Futebol
+        <input class="form-check-input" type="checkbox" id="esporte-2" value="vol" name="esporte">Voley
+        <input class="form-check-input" type="checkbox" id="esporte-3" value="bas" name="esporte">Basquete
+        <input class="form-check-input" type="checkbox" id="esporte-4" value="nat" name="esporte">Natação
+        <input class="form-check-input" type="checkbox" id="esporte-5" value="aut" name="esporte">Automobilismo
+        <input class="form-check-input" type="checkbox" id="esporte-6" value="art" name="esporte">Artes marciais
+        <input class="form-check-input" type="checkbox" id="esporte-7" value="out" name="esporte">Outro
+      </form>
+    </div class="form-group">
+    <div class="form-group">
+      <p>Qual a sua região?</p>
+      <form action="" method="get">
+        <label for="reg1"><input class="form-check-input" type="radio" id="reg1" name="regiao" value="ne">Nodeste</label>
+        <label for="reg2"><input class="form-check-input" type="radio" id="reg2" name="regiao" value="n">Norte</label>
+        <label for="reg3"><input class="form-check-input" type="radio" id="reg3" name="regiao" value="co">Centro-Oeste</label>
+        <label for="reg4"><input class="form-check-input" type="radio" id="reg4" name="regiao" value="se">Sudeste</label>
+        <label for="reg5"><input class="form-check-input" type="radio" id="reg5" name="regiao" value="s">Sul</label>
+      </form>
+    </div class="form-group">
+    <div class="form-group">
+      <p>Em qual estado você nasceu?</p>
+      <form action="" method="get">
+        <select class="form-control" name="estado" id="dropdown-estado">
+          <option value="pe">Pernambuco</option>
+          <option value="pb">Paraíba</option>
+          <option value="ba">Bahia</option>
+          <option value="pa">Pará</option>
+          <option value="am">Amazonas</option>
+          <option value="ac">Acre</option>
+          <option value="to">Tocantins</option>
+          <option value="go">Goiás</option>
+          <option value="mg">Minas Gerais</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="sp">São Paulo</option>
+          <option value="pr">Paraná</option>
+          <option value="rs">Rio Grande do Sul</option>
+        </select>
+        <p>Crie uma senha</p>
+        <input class="form-control" type="password" name="senha">
+      </form>
+    </div class="form-group">
+    <div class="form-group">
+      <p>Envie um arquivo</p>
+      <form action="" method="get">
+        <input class="form-control btn btn-warning" type="file" name="imagem" id="img-1">
+        <p>Usuário</p>
+        <input class="form-control" type="text" name="user" required>
+        <p>Senha</p>
+        <input class="form-control" type="password" name="pass" required>
+        <button class="btn btn-success" type="submit" class="" name="" id="">Enviar</button>
+      </form>
+      <form action="" method="post" enctype="multipart/form-data">
+        <input class="form-control btn btn-warning" type="file" name="imagem" id="img-1">
+      </form>
+    </div class="form-group">
+</body>
+</html>
