@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 30%;
+  border: #232525 solid 1px;
+}
+
+.box-container {
+  background-color: #0fa36b;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* .flex-container {
+  display: flex;
+} */
