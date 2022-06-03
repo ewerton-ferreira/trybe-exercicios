@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-content {
+    background-color: #5995da;
+    padding: 20px 0;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu {
+    /* border: 1px solid red; */
+    width: 900px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 30px;
+}
+
+.header-container {
+    /* border: 1px solid red;
+    background-color: #d6e9fe; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header {
+    /* border: 1px solid yellow; */
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-redes {
+    width: 100px;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-grid-item {
+    border: 1px solid white;
+    width: 350px;
+    height: 350px;
+}
+
+.photo {
+    width: 350px;
+    height: 350px;
+}
