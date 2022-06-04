@@ -65,7 +65,7 @@
     justify-content: space-around;
   }
   
-  .card-container div {
+  .card-container div img {
     align-items: center;
     background-color: #5C687C;
     border: black solid 1px;
@@ -75,8 +75,20 @@
     height: 150px;
     justify-content: center;
     margin: 10px;
+    box-shadow: 3px 3px black;
   }
-  
+
+  .capas:hover {
+    z-index: 1;
+    transform: scale(3.0);
+    box-shadow: 0 40px 50px rgba(0, 0, 0, 0.8);
+    transition-delay: 0.2s;
+    transition: 0.5s;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .aside-container {
     align-self: center;
     display: flex;
@@ -87,7 +99,8 @@
   }
   
   .aside-container h3, h4 {
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     text-align: center;
   }
   
@@ -95,3 +108,8 @@
     margin: 10px 0;
     text-align: justify;
   }
+
+  h4, .resumo {
+      text-indent: 30px;
+  }
+
