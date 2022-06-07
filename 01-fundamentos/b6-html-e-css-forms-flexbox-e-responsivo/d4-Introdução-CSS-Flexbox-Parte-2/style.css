@@ -82,7 +82,7 @@
     z-index: 1;
     transform: scale(3.0);
     box-shadow: 0 40px 50px rgba(0, 0, 0, 0.8);
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
     transition: 0.5s;
     margin-left: 100px;
     display: flex;
