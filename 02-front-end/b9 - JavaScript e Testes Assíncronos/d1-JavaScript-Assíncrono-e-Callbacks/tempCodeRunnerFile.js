@@ -1,1 +1,0 @@
-getCountry(countryName, printErrorMessage);
