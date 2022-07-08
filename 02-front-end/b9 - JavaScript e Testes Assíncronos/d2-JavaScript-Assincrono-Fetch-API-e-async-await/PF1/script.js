@@ -21,6 +21,7 @@ const jsonInfo = `{
   ]
 }`;
 
+
 const usoJSONPorque = JSON.parse(jsonInfo);
 
 const corporationsList = document.getElementById('corporations-used-by');
