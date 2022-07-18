@@ -25,5 +25,4 @@ const setCoins = async () => {
       coinsList.appendChild(newLi);
     });
 }
-
 window.onload = () => setCoins();
