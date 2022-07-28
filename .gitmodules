@@ -1,0 +1,3 @@
+[submodule "trybe-exercicios"]
+	path = trybe-exercicios
+	url = git@github.com:ewerton-ferreira/trybe-exercicios.git
