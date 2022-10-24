@@ -1,0 +1,1 @@
+SELECT employee_id, first_name, DAY(hire_date) AS dia_de_entrada FROM hr.employees;
