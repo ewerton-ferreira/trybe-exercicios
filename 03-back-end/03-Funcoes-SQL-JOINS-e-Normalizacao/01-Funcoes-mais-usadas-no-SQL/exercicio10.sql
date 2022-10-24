@@ -1,0 +1,1 @@
+SELECT department_id, COUNT(*) AS quantidade_funcionarios, ROUND(AVG(salary), 2) AS media_salarial FROM hr.employees GROUP BY department_id HAVING department_id > 10;
