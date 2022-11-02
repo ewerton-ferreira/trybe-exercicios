@@ -187,22 +187,44 @@ const path = require('path');
 
 //REQUISITO 06-B
 
-async function getByIDSimpson(id) {
+// async function getByIDSimpson(id) {
+//   const fileContent = await fs.readFile('./simpsons.json', 'utf-8');
+//   const simpsons = JSON.parse(fileContent);
+
+//   const chosenID = simpsons.find((simpson) => Number(simpson.id) === id);
+
+//   if (!chosenID) {
+//     throw new Error('id não encontrado');
+//   }
+//   return chosenID;
+// }
+
+
+// async function main() {
+//   const simpson = await getByIDSimpson(1);
+//   console.log(simpson);
+// }
+
+// main();
+
+//REQUISITO 06-C
+
+async function filterSimpsons() {
   const fileContent = await fs.readFile('./simpsons.json', 'utf-8');
   const simpsons = JSON.parse(fileContent);
 
-  const chosenID = simpsons.find((simpson) => Number(simpson.id) === id);
+  const newArray = simpsons.filter((simpson) => simpson.id !== '10' && simpson.id !== '6')
 
-  if (!chosenID) {
-    throw new Error('id não encontrado');
-  }
-  return chosenID;
+  await fs.writeFile('./simpsons.json', JSON.stringify(newArray));
+
+
+  const strings = newArray.map(({ id, name }) => `${id} - ${name}`);
+  strings.forEach((string) => console.log(string));
 }
 
 
 async function main() {
-  const simpson = await getByIDSimpson(1);
-  console.log(simpson);
+  filterSimpsons();
 }
 
 main();
