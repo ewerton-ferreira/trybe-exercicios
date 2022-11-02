@@ -170,17 +170,39 @@ const path = require('path');
 //REQUISITO 06-A
 
 
-async function readAll() {
+// async function readAll() {
+//   const fileContent = await fs.readFile('./simpsons.json', 'utf-8');
+//   const simpsons = JSON.parse(fileContent);
+//   const strings = simpsons.map(({ id, name }) => `${id} - ${name}`);
+
+//   strings.forEach((string) => console.log(string));
+// }
+
+
+// async function main() {
+//   await readAll();
+// }
+
+// main();
+
+//REQUISITO 06-B
+
+async function getByIDSimpson(id) {
   const fileContent = await fs.readFile('./simpsons.json', 'utf-8');
   const simpsons = JSON.parse(fileContent);
-  const strings = simpsons.map(({ id, name }) => `${id} - ${name}`);
 
-  strings.forEach((string) => console.log(string));
+  const chosenID = simpsons.find((simpson) => Number(simpson.id) === id);
+
+  if (!chosenID) {
+    throw new Error('id não encontrado');
+  }
+  return chosenID;
 }
 
 
 async function main() {
-  await readAll();
+  const simpson = await getByIDSimpson(1);
+  console.log(simpson);
 }
 
 main();
