@@ -22,6 +22,27 @@ const readline = require('readline-sync');
 
 //REQUISITO 03
 
+// function handleBMI(weight, height) {
+
+//   const heightInMeters = height / 100;
+//   const heightSquared = heightInMeters ** 2;
+//   const bmi = weight / heightSquared;
+
+//   return bmi;
+// }
+
+// function main() {
+//   const weight = readline.question("What\'s your weight? "); // peso em kilos
+//   const height = readline.question("What\'s your height? "); // altura em centímetros
+  
+//   const bmi = handleBMI(weight, height);
+//   console.log(`BMI: ${bmi.toFixed(2)}`);
+// }
+
+// main();
+
+//REQUISITO 04
+
 function handleBMI(weight, height) {
 
   const heightInMeters = height / 100;
@@ -32,10 +53,11 @@ function handleBMI(weight, height) {
 }
 
 function main() {
-  const weight = readline.question("What\'s your weight? "); // peso em kilos
-  const height = readline.question("What\'s your height? "); // altura em centímetros
+  const weight = readline.questionFloat("What\'s your weight? "); // peso em kilos
+  const height = readline.questionInt("What\'s your height? "); // altura em centímetros
   
   const bmi = handleBMI(weight, height);
+  console.log(`Weight: ${weight}, Height: ${height}`);
   console.log(`BMI: ${bmi.toFixed(2)}`);
 }
 
