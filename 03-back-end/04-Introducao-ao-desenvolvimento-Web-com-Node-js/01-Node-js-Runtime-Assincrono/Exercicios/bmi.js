@@ -20,6 +20,8 @@ const readline = require('readline-sync');
 
 // main();
 
+// ******************************************************************
+
 //REQUISITO 03
 
 // function handleBMI(weight, height) {
@@ -41,7 +43,33 @@ const readline = require('readline-sync');
 
 // main();
 
+// ******************************************************************
+
 //REQUISITO 04
+
+// function handleBMI(weight, height) {
+
+//   const heightInMeters = height / 100;
+//   const heightSquared = heightInMeters ** 2;
+//   const bmi = weight / heightSquared;
+
+//   return bmi;
+// }
+
+// function main() {
+//   const weight = readline.questionFloat("What\'s your weight? "); // peso em kilos
+//   const height = readline.questionInt("What\'s your height? "); // altura em centímetros
+  
+//   const bmi = handleBMI(weight, height);
+//   console.log(`Weight: ${weight}, Height: ${height}`);
+//   console.log(`BMI: ${bmi.toFixed(2)}`);
+// }
+
+// main();
+
+// ******************************************************************
+
+//REQUISITO 05
 
 function handleBMI(weight, height) {
 
@@ -59,6 +87,21 @@ function main() {
   const bmi = handleBMI(weight, height);
   console.log(`Weight: ${weight}, Height: ${height}`);
   console.log(`BMI: ${bmi.toFixed(2)}`);
+  if(bmi < 18.5) {
+    console.log("Você está abaixo do peso (magreza)");
+  } else if(bmi >= 18.5 && bmi <= 24.9) {
+    console.log("Você está com o peso normal");
+  } else if(bmi >= 25 && bmi <= 29.9) {
+    console.log("Você está acima do peso (sobrepeso)");
+  } else if(bmi >= 30 && bmi <= 34.9) {
+    console.log("Você está com obesidade grau I");
+  } else if(bmi >= 35 && bmi <= 39.9) {
+    console.log("Você está com obesidade grau II");
+  } else if(bmi >= 40) {
+    console.log("Você está com obesidade grau III e IV");
+  }
 }
 
 main();
+
+// ******************************************************************
