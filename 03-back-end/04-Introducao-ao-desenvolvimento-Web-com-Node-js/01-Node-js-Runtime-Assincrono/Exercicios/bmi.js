@@ -89,17 +89,21 @@ function main() {
   console.log(`BMI: ${bmi.toFixed(2)}`);
   if(bmi < 18.5) {
     console.log("Você está abaixo do peso (magreza)");
-  } else if(bmi >= 18.5 && bmi <= 24.9) {
+    return;
+  } if(bmi >= 18.5 && bmi <= 24.9) {
     console.log("Você está com o peso normal");
-  } else if(bmi >= 25 && bmi <= 29.9) {
+    return;
+  } if(bmi >= 25 && bmi <= 29.9) {
     console.log("Você está acima do peso (sobrepeso)");
-  } else if(bmi >= 30 && bmi <= 34.9) {
+    return;
+  } if(bmi >= 30 && bmi <= 34.9) {
     console.log("Você está com obesidade grau I");
-  } else if(bmi >= 35 && bmi <= 39.9) {
+    return;
+  } if(bmi >= 35 && bmi <= 39.9) {
     console.log("Você está com obesidade grau II");
-  } else if(bmi >= 40) {
+    return;
+  } 
     console.log("Você está com obesidade grau III e IV");
-  }
 }
 
 main();
