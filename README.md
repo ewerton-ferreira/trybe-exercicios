@@ -143,39 +143,39 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 01: Docker: Utilizando Containers (antigo bloco 20)
-- [ ] 01-1: _Utilizando Containers - Docker_
-- [ ] 01-2: _Manipulando Imagens no Docker_
-- [ ] 01-3: _Orquestrando Containers com Docker Compose_
-- [ ] 01-4: _Projeto - Docker Todo-List_
+- [x] 01-1: _Utilizando Containers - Docker_
+- [x] 01-2: _Manipulando Imagens no Docker_
+- [x] 01-3: _Orquestrando Containers com Docker Compose_
+- [x] 01-4: _Projeto - Docker Todo-List_
 
 ##### Bloco 02: Introdução à SQL (antigo bloco 21)
 
-- [ ] 02-1: _Banco de dados SQL_
-- [ ] 02-2: _Encontrando dados em um banco de dados_
-- [ ] 02-3: _Filtrando dados de forma específica_
-- [ ] 02-4: _Manipulando tabelas_
-- [ ] 02-5: _[Projeto - All For One]()_
+- [x] 02-1: _Banco de dados SQL_
+- [x] 02-2: _Encontrando dados em um banco de dados_
+- [x] 02-3: _Filtrando dados de forma específica_
+- [x] 02-4: _Manipulando tabelas_
+- [x] 02-5: _[Projeto - All For One]()_
 
 ##### Bloco 03: Funções SQL, JOINs e Normalização (antigo bloco 22)
 
-- [ ] 03-1: _Funções mais usadas no SQL_
-- [ ] 03-2: _Descomplicando JOINs_
-- [ ] 03-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 03-4: _Aula ao vivo + [Projeto - All For One]()_
+- [x] 03-1: _Funções mais usadas no SQL_
+- [x] 03-2: _Descomplicando JOINs_
+- [x] 03-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 03-4: _Aula ao vivo + [Projeto - All For One]()_
 
 ##### Bloco 04: Introdução ao desenvolvimento Web com Node.js (antigo bloco 23)
 
-- [ ] 04-1: _Node.js: Runtime Assíncrono_
-- [ ] 04-2: _Node.js: API REST com Express_
-- [ ] 04-3: _Node.js: Testes de Integração_
-- [ ] 04-4: _Node.js: Express e Middlewares_
-- [ ] 04-5: _Node.js: Express e MySQL_
-- [ ] 04-6: _Atividades + [Projeto - Talker Manager]()_
+- [x] 04-1: _Node.js: Runtime Assíncrono_
+- [x] 04-2: _Node.js: API REST com Express_
+- [x] 04-3: _Node.js: Testes de Integração_
+- [x] 04-4: _Node.js: Express e Middlewares_
+- [x] 04-5: _Node.js: Express e MySQL_
+- [x] 04-6: _Atividades + [Projeto - Talker Manager]()_
 
 ##### Bloco 05: Arquitetura de Software: Model, Service e Controller (antigo bloco 24)
 
-- [ ] 05-1: _Arquitetura de Software: Camada Model_
-- [ ] 05-2: _Arquitetura de Software: Camada Service_
+- [x] 05-1: _Arquitetura de Software: Camada Model_
+- [x] 05-2: _Arquitetura de Software: Camada Service_
 - [ ] 05-3: _Arquitetura de Software: Camada Controller_
 - [ ] 05-6: _[Projeto - Store Manager]()_
 
