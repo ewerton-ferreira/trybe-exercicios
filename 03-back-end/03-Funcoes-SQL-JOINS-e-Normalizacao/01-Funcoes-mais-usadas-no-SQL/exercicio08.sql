@@ -1,0 +1,1 @@
+SELECT job_id AS funcao, SUM(salary) AS total FROM hr.employees GROUP BY job_id HAVING job_id = 'IT_PROG';
