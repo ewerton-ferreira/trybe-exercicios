@@ -1,0 +1,11 @@
+db.itens.find(
+  {
+    $expr: { $gt: [ "$valor_entrada_itens", "$valor_saida_itens" ] }
+  },
+  {
+    _id: 0,
+    nome: 1,
+    valor_entrada_itens: 1,
+    valor_saida_itens: 1
+  }
+);

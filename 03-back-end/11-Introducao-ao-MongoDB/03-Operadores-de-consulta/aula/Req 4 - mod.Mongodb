@@ -1,0 +1,16 @@
+//para valor par
+db.itens.find(
+  {
+    valor_entrada_itens: { $mod: [2, 0] } 
+  },
+  {}
+);
+
+
+//para valor ímpar
+db.itens.find(
+  {
+    valor_entrada_itens: { $mod: [2, 1] } 
+  },
+  {}
+);

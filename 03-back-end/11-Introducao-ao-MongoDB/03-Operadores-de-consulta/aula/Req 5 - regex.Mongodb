@@ -1,0 +1,19 @@
+db.itens.find(
+  {
+    categoria: { $regex: /verd.*$/i } 
+  },
+  {
+    _id: 0,
+    valor_saida_itens: { $gt: 100 }
+  }
+);
+
+db.itens.find(
+  {
+    categoria: { $regex: /frut.*$/i } 
+  },
+  {
+    _id: 0,
+    valor_saida_itens: { $gt: 100 }
+  }
+);
