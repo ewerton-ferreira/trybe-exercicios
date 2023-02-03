@@ -3,3 +3,8 @@ db.movies.find(
     description: { $regex: /humanity.$/i }
   }, {}
 );
+
+
+
+
+// Exercício do dia

@@ -8,3 +8,7 @@ db.movies.find(
   }, {}
 );
 
+
+
+
+// Exercício do dia

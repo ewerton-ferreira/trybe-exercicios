@@ -4,3 +4,7 @@ db.movies.find({
   title: 1,
   _id: 0
 });
+
+
+
+// Exercício do dia

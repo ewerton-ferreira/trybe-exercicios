@@ -3,3 +3,7 @@ db.movies.find(
     $expr: { $lt: [ "$budget", "$grossWorldwide" ] }
   }, {}
 );
+
+
+
+// Exercício do dia

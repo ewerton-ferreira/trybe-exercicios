@@ -9,3 +9,6 @@ db.itens.find(
     quantidade: 1 // pode usar também true ou false, 0 = falso, 1 = verdadeiro
   }
 ).count();
+
+
+// Desafio da aula

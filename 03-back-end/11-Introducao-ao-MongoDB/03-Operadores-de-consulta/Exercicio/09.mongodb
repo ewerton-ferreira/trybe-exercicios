@@ -4,3 +4,6 @@ db.movies.find({
   }, category: { $size: 2}
 }, {}
 );
+
+
+// Exercício do dia

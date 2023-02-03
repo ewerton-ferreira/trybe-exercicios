@@ -11,3 +11,7 @@ db.movies.find({
   ratings: 1,
   _id: 0
 });
+
+
+
+// Exercício do dia

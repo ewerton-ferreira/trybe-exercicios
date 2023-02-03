@@ -17,3 +17,6 @@ db.itens.find(
     valor_saida_itens: { $gt: 100 }
   }
 );
+
+
+// Desafio da aula

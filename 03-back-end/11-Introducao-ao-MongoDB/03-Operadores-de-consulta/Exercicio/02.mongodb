@@ -6,3 +6,6 @@ db.movies.find(
     imdbRating: { $gte: 7 }
   }
 );
+
+
+// Exercício do dia
