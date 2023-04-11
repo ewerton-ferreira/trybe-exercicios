@@ -1,0 +1,12 @@
+db.itens.find(
+  {
+    tags: { $size: 4 } 
+  },
+  {}
+);
+
+// Irá retornar um array vazio pois não tem elementos com quatro tags
+
+// Se usar o size 3, retornará 4 elementos
+
+// Desafio da aula

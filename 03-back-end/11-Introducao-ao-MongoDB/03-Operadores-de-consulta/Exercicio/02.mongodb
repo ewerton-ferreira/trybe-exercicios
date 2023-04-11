@@ -1,0 +1,11 @@
+db.movies.find(
+  {
+    category: {
+      $all: ["action", "sci-fi"]
+    },
+    imdbRating: { $gte: 7 }
+  }
+);
+
+
+// Exercício do dia

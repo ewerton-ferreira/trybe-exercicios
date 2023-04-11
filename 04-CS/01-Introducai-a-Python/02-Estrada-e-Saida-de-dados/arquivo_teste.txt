@@ -1,0 +1,10 @@
+nome idade
+Maria 45
+Miguel 33
+Maíra 29
+Márcio 25
+Diferente 10
+Alberto 33
+Bruna 22
+Carol 18
+Douglas 44

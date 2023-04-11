@@ -1,0 +1,16 @@
+use ("business")
+
+// Desafio 01
+// db.restaurants.find(
+//   {},
+//   {
+//     name: 1
+//   }).sort({ name: 1 });
+
+
+  // Desafio 02
+// db.restaurants.find(
+//   {},
+//   {
+//     name: 1
+//   }).sort({ rating: -1 });

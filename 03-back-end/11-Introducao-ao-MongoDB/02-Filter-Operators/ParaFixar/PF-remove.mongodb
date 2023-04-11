@@ -1,0 +1,16 @@
+use ("business")
+
+// Desafio 01
+// db.restaurants.deleteOne(
+//   { cuisine: 'Ice Cream', 'Gelato', 'Yogurt', 'Ices' },
+// {});
+
+
+// Desafio 02
+// db.inventory.deleteMany(
+//   { cuisine: 'American' },
+// {});
+
+
+
+

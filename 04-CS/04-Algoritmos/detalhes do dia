@@ -1,0 +1,40 @@
+# ativar movo virtual no terminal
+python -m venv .venv
+source .venv/bin/activate
+
+
+# para instalar as dependências
+pip install -r dev-requirements.txt
+	pip install pytest (tive que instalar)
+
+
+# rodar o pytest no terminal
+python -m pytest
+ou
+pytest
+
+
+unittest - biblioteca que serve para mockar um teste
+	from unittest.mock import patch, mock_open
+	
+	def test_load_json():
+		with patch("builtins.open", mock_open(read_data='o que eu quero que seja retornado pela mock_open')):
+			resultado = load_json('caminho do arquivo testado.json')
+			assert type(resultado) == list
+
+fixture - equivale a um arquivo mocha
+	@pytest.fixture
+
+with - monitora o teste em um escopo específico
+
+raise - tem que importar o pytest e ele retorna uma excessão, no caso de um arquivo ser incorreto, não ser um .json
+	with putest.raises('informar a excessão')
+	
+pass - usado para ignorar, não fazer nada
+
+	
+
+
+
+
+

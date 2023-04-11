@@ -1,0 +1,12 @@
+use('aula-serch-operator');
+
+db.itens.find(
+  {
+    tags: {
+      $all: ['lemon', 'orange']
+    }
+  },
+{}
+);
+
+// Desafio da aula

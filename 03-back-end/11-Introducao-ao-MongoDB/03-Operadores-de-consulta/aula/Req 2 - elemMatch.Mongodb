@@ -1,0 +1,14 @@
+db.itens.find(
+  {
+    quantidade: {
+      $elemMatch: { $gte: 70, $lt: 100 }
+    }
+  },
+  {
+    _id: 1
+    quantidade: 1 // pode usar também true ou false, 0 = falso, 1 = verdadeiro
+  }
+).count();
+
+
+// Desafio da aula

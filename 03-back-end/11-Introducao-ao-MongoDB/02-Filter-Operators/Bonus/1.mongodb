@@ -1,0 +1,5 @@
+use ("aula-filter-operators")
+
+db.filmes.countDocuments();
+
+db.dropDatabase()
